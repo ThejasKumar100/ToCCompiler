@@ -1,3 +1,1 @@
 # ToCCompiler
-
-# Sample Text
