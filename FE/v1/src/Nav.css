@@ -1,0 +1,37 @@
+
+.Nav ul {
+    color: #fff;
+    background-color: lightgrey;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  
+  .Nav li {
+    padding: 1rem;
+  }
+  
+  .Nav li:hover, 
+  .Nav li:focus {
+    padding: 1rem;
+  }
+  
+  .Nav li a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .Nav li:hover, 
+  .Nav li:focus, 
+  .Nav li:hover a, 
+  .Nav li:focus a  {
+    background-color: white;
+    color: #333;
+  }
+  
+  .Nav li:hover a, 
+  .Nav li:focus a {
+    cursor: pointer;
+  }
+  
