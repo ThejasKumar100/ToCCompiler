@@ -6,11 +6,13 @@ import MainPage from './mainPage';
 import Preferences from './preferencesPage';
 import {Route, Switch, useHistory} from 'react-router-dom';
 import {useState, useEffect} from 'react';
+import Header from './Header';
 
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Nav/>
       <Switch>
         <Route path="/login" component={LoginPage}/>
