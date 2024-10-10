@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background: white;
+    padding: 10%;
+}
+
+.text{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display:flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: lightgrey;
+    border-radius: 6px;
+}
+
