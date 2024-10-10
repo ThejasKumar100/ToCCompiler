@@ -6,12 +6,9 @@ const Nav = () => {
         //Link option is not working, href works
         <nav className="Nav">
         <ul>
-            {/* <li>
-                <Link to="/login">Login</Link>    
-            </li> */}
-            <li><a href="/login">Login</a></li>
-            <li><a href="/main">Main</a></li>
-            <li><a href="/preferences">Preferences</a></li>
+            <li><Link to="/login">Login</Link></li> 
+            <li><Link to="/main">Main</Link></li>
+            <li><Link to="/preferences">Preferences</Link></li>
         </ul>
         </nav>
     );
