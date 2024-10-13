@@ -3,12 +3,25 @@
     flex-direction: column;
     margin: auto;
     background: white;
-    padding: 10%;
+    padding: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
 }
 
 .text{
     font-size: 48px;
     font-weight: 700;
+}
+.underline{
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    border-radius: 9px;
 }
 
 .inputs{
@@ -26,5 +39,48 @@
     height: 80px;
     background: lightgrey;
     border-radius: 6px;
+}
+
+.img{
+    font-size: 2em;
+    margin: 0px 30px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+}
+.forgot-password{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.forgot-password span{
+    color: #0000FF;
+    cursor: pointer;
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: gray;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
 }
 

@@ -1,8 +1,13 @@
+import React from 'react'
+import {useState} from 'react';
 import './loginPage.css';
 import { FaLock } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 
 const loginPage = () => {
+    const [action, setAction] = useState('');
+
+    
     return (
         <div className='container'>
             <div className='header'>
@@ -12,15 +17,15 @@ const loginPage = () => {
             <div className="inputs">
                 <div className="input">
                     <div className="img"><MdOutlineMailOutline /></div>
-                    <input type="email"/>
+                    <input type="email" placeholder="Email"/>
                 </div>
                 <div className="input">
-                    <FaLock />
-                    <input type="password"/>
+                <div className="img"><FaLock /></div>
+                    <input type="password" placeholder="Password"/>
                 </div>
             </div>
             <div className="forgot-password">Forgot Password? <span>Click Here!</span></div>
-            <div className="submit-Container">
+            <div className="submit-container">
                 <div className="submit">Sign Up</div>
                 <div className="submit">Login</div>
 
