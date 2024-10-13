@@ -1,4 +1,4 @@
-const preferencesPage = () => {       // eslint-disable-line
+const PreferencesPage = () => {       
     return (
         <div>
             <h1>Preferences</h1>
@@ -6,4 +6,4 @@ const preferencesPage = () => {       // eslint-disable-line
     );
 }
 
-export default preferencesPage;
+export default PreferencesPage;

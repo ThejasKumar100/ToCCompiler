@@ -4,10 +4,9 @@ import './loginPage.css';
 import { FaLock } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
 
-const loginPage = () => {
+const LoginPage = () => {
     const [action, setAction] = useState('');
 
-    
     return (
         <div className='container'>
             <div className='header'>
@@ -34,4 +33,4 @@ const loginPage = () => {
         </div>
     )
 }
-export default loginPage;
+export default LoginPage;
