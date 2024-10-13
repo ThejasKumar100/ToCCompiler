@@ -7,6 +7,12 @@
     flex-wrap: nowrap;
     align-items: center;
   }
+.Nav img{
+  height: 5%;
+  width: 5%;
+  margin: 1px 5px;
+  
+}
   
   .Nav li {
     padding: 1rem;
