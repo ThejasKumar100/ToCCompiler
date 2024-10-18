@@ -54,12 +54,12 @@
     outline: none;
     font-size: 19px;
 }
-.forgot-password{
+.extra{
     margin-top: 15px;
     font-size: 16px;
 }
 
-.forgot-password span{
+.extra span{
     color: #0000FF;
     cursor: pointer;
 }
