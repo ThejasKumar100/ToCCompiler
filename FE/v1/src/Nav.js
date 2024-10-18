@@ -8,9 +8,9 @@ const Nav = () => {
         <nav className="Nav">
         <ul>
             <img src = {logo}/>  
-            <li><Link to="/login">Login</Link></li> 
             <li><Link to="/main">Main</Link></li>
             <li><Link to="/preferences">Preferences</Link></li>
+            <li className="loginList"><Link to="/login">Login</Link></li> 
         </ul>
         </nav>
     );

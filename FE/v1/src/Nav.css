@@ -7,7 +7,10 @@
     align-items: left;
     margin: 0;
     padding: 0;
-  }
+}
+.Nav .loginList{
+  margin-left: 945px;
+}
 .Nav img{
   height: 4%;
   width: 4%;
